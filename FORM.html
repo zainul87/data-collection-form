@@ -101,7 +101,8 @@
                 comments: document.getElementById("comments").value
             };
 
-            fetch("YOUR_GOOGLE_APPS_SCRIPT_URL", {  // Replace with your Web App URL
+            fetch("https://docs.google.com/spreadsheets/d/1WRNCCklnoYlft-hJG-A9XSn-E7a426zlUMzKje3c0uQ/edit?gid=0#gid=0
+", {  // Replace with your Web App URL
                 method: "POST",  // Ensures POST is used
                 body: JSON.stringify(formData),
                 headers: { "Content-Type": "application/json" }
